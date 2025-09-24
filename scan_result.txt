@@ -1,0 +1,14 @@
+# Nmap 7.98 scan initiated Wed Sep 24 15:53:56 2025 as: nmap -sS -oN scan_result.txt 172.20.10.2
+Nmap scan report for 172.20.10.2
+Host is up (0.00041s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1521/tcp open  oracle
+5500/tcp open  hotline
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+
+# Nmap done at Wed Sep 24 15:53:56 2025 -- 1 IP address (1 host up) scanned in 0.89 seconds
